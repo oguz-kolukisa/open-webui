@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 Mevsim Yapay Zeka Asistanı</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: radial-gradient(circle at center, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75) 60%),
+                        url('background.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .file-section {
+            width: 100%;
+        }
+
+        .file-section h2 {
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            color: #fff;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        .button i {
+            margin-right: 10px;
+        }
+
+        .ios {
+            background-color: #1c87c9;
+        }
+
+        .ios:hover {
+            background-color: #155d82;
+        }
+
+        .android {
+            background-color: #34a853;
+        }
+
+        .android:hover {
+            background-color: #237c3b;
+        }
+
+        .icon {
+            font-size: 20px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="file-section">
+            <h2>4 Mevsim Yapay Zeka Asistanı</h2>
+            <div class="buttons">
+                <a href="file1-ios.zip" download class="button ios">
+                    <i class="fab fa-apple icon"></i>Download for iOS
+                </a>
+                <a href="file1-android.zip" download class="button android">
+                    <i class="fab fa-android icon"></i>Download for Android
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
